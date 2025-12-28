@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""This module contains the append_after function to insert a line
+after each line containing a specific string in a file.
+"""
+
 def append_after(filename="", search_string="", new_string=""):
     """Insert a line of text after each line containing a specific string."""
     # اقرأ كل الأسطر
