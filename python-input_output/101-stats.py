@@ -19,9 +19,9 @@ def main():
         for line in sys.stdin:
             line_count += 1
             parts = line.strip().split()
-            if len(parts) < 9:
+            if len(parts) < 2:
                 continue
-            # Extract status code and file size
+            # نقرأ آخر عنصرين فقط
             try:
                 status = int(parts[-2])
                 size = int(parts[-1])
